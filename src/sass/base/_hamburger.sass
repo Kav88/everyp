@@ -1,0 +1,47 @@
+.hamburger
+    display: none
+    justify-content: flex-end
+
+.menu-btn 
+    width: 27px
+    height: 14px
+    position: relative
+    z-index:2
+    overflow: hidden
+
+.menu-btn span
+    width: 100%
+    height: 2px
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    background-color: #1399CF
+    transition: all 0.5s
+
+.menu-btn span:nth-of-type(2) 
+    top: calc(50% - 5px)
+
+.menu-btn span:nth-of-type(3) 
+    top: calc(50% + 5px)
+
+.menu
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    padding: 15px
+    background: #FFEFBA
+    transform: translateX(-100%)
+    transition: transform 0.5s
+
+.menu.active 
+    transform: translateX(0)
+
+.menu li 
+    list-style-type: none
+
+
+
+    
