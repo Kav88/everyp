@@ -1,20 +1,10 @@
-import Swiper, { Navigation, Pagination } from 'swiper';
-
-Swiper.use([Navigation, Pagination]);
-
-const swiper = new Swiper('.swiper', {
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
-
+function burger(){
+  var elem = document.querySelector('.hamburger__wrapper');
+  elem.classList.toggle('hidden');
+  document.body.classList.toggle('no-scroll');
+}
+function hideMenu(){
+  var elem = document.querySelector('.hamburger__wrapper');
+  elem.classList.add('hidden');
+  document.body.classList.remove('no-scroll');
+}
