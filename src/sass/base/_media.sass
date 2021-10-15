@@ -1,6 +1,25 @@
 @media (max-width: 1170px)
+    h2
+        text-align: center
     .container
-        padding: 10px 64px 10px 70px
+        padding: 10px 60px 10px 60px
+    .advantage__title
+        text-align: left
+    .advantage__last-img
+        margin: 21px auto
+    .automate__inner
+        flex-direction: column
+        text-align: center
+    .automate__info
+        padding-top: 24px 
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        margin: 0 auto
+    .automate__info-text
+        padding-bottom: 48px
+    .automate .automate__form
+        margin-top: 0    
     .nav__list, .nav__link-lang, .nav__btn-connect
         display: none
     .menu-btn
@@ -13,8 +32,27 @@
         position: absolute
         left: 70px
         z-index: 100
-       
-@media only screen and (max-width: 767px)
+    .banks__inner
+        flex-direction: column
+        flex-wrap: nowrap
+        align-items: center
+    
+
+@media only screen and (max-width: 950px)
+    .banks__inner
+        justify-content: center
+    .about__info-text
+        font-size: 16px
+        line-height: 24px  
+    .about__info
+        padding: 0
+    .about__info-item
+        width: 200px
+    .about__info-img
+        height: 90px
+   
+
+@media only screen and (max-width: 768px)
     .container
         padding: 10px 40px
     .swiper
@@ -22,21 +60,9 @@
         width: 534px
     .advantage__block
         flex-direction: column
-    .about__info
-        padding: 0
-    .about__info-img
-        height: 90px
-    .about__info-text
-        font-size: 16px
-        line-height: 24px
+    
     .about__title
         text-align: center
-    .automate__title
-        margin-bottom: 24px
-        text-align: center
-    .automate__info-text
-        text-align: center
-        margin-top: 24px
     .banks__inner
         flex-wrap: wrap
         justify-content: center
@@ -48,7 +74,7 @@
         font-size: 16px
         line-height: 20px
         letter-spacing: 0.443077px
-
+   
     .tarrifs__text
         font-size: 18px
         line-height: 28px
@@ -84,6 +110,100 @@
         margin-top: 70px
     .swiper-button-next, .swiper-button-prev
         display: none
+
+@media only screen and (max-width: 750px)
+    .about__info
+        flex-direction: column
+        align-items: center
+    .about__info-item
+        margin-top: 40px
+    .about__title
+        margin: 0
+
+@media only screen and (max-width: 600px)
+    .container
+        padding: 10px 30px
+    .nav__img
+        left: 30px
+    .menu-btn
+        right: 30px
+    .advantage__last
+        img
+            width: auto
+            max-width: 100%
+            height: auto
+    .advantage__last-info
+        max-height: 432px
+    .automate__container
+        padding: 0
+    .automate__inner
+        padding: 60px 20px
+    .automate__title
+        font-size: 28px
+        line-height: 36px
+        letter-spacing: 0.44px
+    .automate__info
+        align-items: center
+    .automate__info-text
+        padding-bottom: 20px
+        width: 278px
+    .automate__info-form
+        width: 278px
+        height: 48px
+    .automate .automate__form
+        width: 208px
+        font-size: 16px
+        position: absolute
+        left: 0
+    .form
+        .automate__button
+            width: 108px
+            padding: 12px 27px
+            left: auto
+            right: 0
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px)
+    .container
+        padding: 10px 21px
+    .automate__container
+        padding: 0
+    .nav__img
+        left: 21px
+    .menu-btn
+        right: 21px  
+    
+
+  
+// @media only screen and (max-width: 320px)
+//     .nav__img
+//         left: 0
+    
+//     .container
+//         padding: 10px 21px
+//     .form
+//         width: 278px
+//         height: 48px
+    
+//   
+//     .about
+//         margin: 92px auto 45px auto
+//     .about__info
+//         flex-wrap: wrap
+//         justify-content: center
+
+//     .automate
+//         margin-top: 0
+//     .automate__title
+//         font-size: 28px
+//         line-height: 36px
+//         letter-spacing: 0.44px
+   
 
 
 
