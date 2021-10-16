@@ -183,7 +183,7 @@
                         <li class="banks__info-item"><img src="images/bankmodule.svg" alt="module" width="173px"
                                 height="100px"></li>
                     </ul>
-                    <img class="banks__info-1c" src="images/1С.svg" alt="1c" width="306px" height="121px">
+                    <img class="banks__info-1c" src="images/1C.png" alt="1c" >
                 </div>
 
 
@@ -218,7 +218,7 @@
                             <img src="images/Fortree.svg" alt="tree" class="for__img" width="100.49px" height="161.9px">
                             <div class="for__box">
                                 <p class="for__subtitle">Малый бизнес</p>
-                                <p class="for__text">Скорость получения <br> информации о платежах <br>
+                                <p class="for__text">Скорость получения  информации о платежах 
                                     и минимизация издержек</p>
                             </div>
                         </li>
@@ -247,40 +247,44 @@
 
     <section class="cases" id="cases">
         <div class="container">
-            <div class="cases__inner">
-                <h2 class="cases__title">Кейсы</h2>
-                <ul class="cases__list">
-                    <li class="cases__item">
-                        <img src="images/cases-logo.svg" alt="logo" width="164.62px" height="39px">
-                        <div class="cases__box">
-                            <p class="cases__box-text">Автоматизация <br> диджитал-агентства</p>
-                            <a class="cases__box-link" href="#">Читать кейс &#5171</a>
-                        </div>
-
-                    </li>
-                    <li class="cases__item">
-                        <img class="cases__img" src="images/cases-logo2.svg" alt="logo" width="197.67px" height="32px">
-                        <div class="cases__box">
-                            <p class="cases__box-text">Приём платежей <br> в рекламной <br> медиа-группе</p>
-                            <a class="cases__box-link" href="#">Читать кейс &#5171</a>
-                        </div>
-
-                    </li>
-                    <li class="cases__item">
-                        <img class="cases__img" src="images/cases-logo2.svg" alt="logo" width="197.67px" height="32px">
-                        <div class="cases__box">
-                            <p class="cases__box-text">Оптимизация бухгалтерии <br> в производственной <br> компании</p>
-                            <a class="cases__box-link" href="#">Читать кейс &#5171</a>
-                        </div>
-                    </li>
-                </ul>
+            <div class="cases">
+                <div class="cases__inner">
+                    <h2 class="cases__title">Кейсы</h2>
+                    <ul class="cases__list">
+                        <li class="cases__item">
+                            <img src="images/cases-logo.svg" alt="logo" width="164.62px" height="39px">
+                            <div class="cases__box">
+                                <p class="cases__box-text">Автоматизация <br> диджитал-агентства</p>
+                                <a class="cases__box-link" href="#">Читать кейс &#5171</a>
+                            </div>
+    
+                        </li>
+                        <li class="cases__item">
+                            <img class="cases__img" src="images/cases-logo2.svg" alt="logo" width="197.67px" height="32px">
+                            <div class="cases__box">
+                                <p class="cases__box-text">Приём платежей <br> в рекламной <br> медиа-группе</p>
+                                <a class="cases__box-link" href="#">Читать кейс &#5171</a>
+                            </div>
+    
+                        </li>
+                        <li class="cases__item">
+                            <img class="cases__img" src="images/cases-logo2.svg" alt="logo" width="197.67px" height="32px">
+                            <div class="cases__box">
+                                <p class="cases__box-text">Оптимизация бухгалтерии <br> в производственной <br> компании</p>
+                                <a class="cases__box-link" href="#">Читать кейс &#5171</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="tarrifs" id="tarrifs">
-        <div class="container">
+        <div class="container tarrifs__container">
+            <h2 class="tarrifs__title tarrifs__title-hidden">Тарифы</h2>
             <div class="tarrifs__inner">
+                
                 <div class="tarrifs__info">
                     <h2 class="tarrifs__title">Тарифы</h2>
                     <p class="tarrifs__text">Everypay находится в стадии закрытого beta-теста, но у вас есть возможность
@@ -296,6 +300,10 @@
                 </div>
                 <img src="images/ruble.svg" alt="ruble" class="tarrifs__img">
             </div>
+            <form class="tarrifs__form-hidden form" action="#">
+                <input class="form__email form__email-hidden" placeholder="Введите email" type="email">
+                <input class="form__button form__button-hidden" type="submit" value="Узнать">
+            </form>
         </div>
     </section>
 
@@ -305,15 +313,16 @@
                 <h2 class="soon__title">Скоро появится</h2>
                 <ul class="soon__list">
                     <li class="soon__item">
-                        <h3 class="soon__subtitle">Интеграции с CRM-системами <br>
+                        <h3 class="soon__subtitle">Интеграции с CRM-системами
                             Битрикс 24 и amoCRM</h3>
                         <div class="soon__box">
                             <div class="soon__box-dash"></div>
-                            <p class="soon__text">Интегрируйте уведомления о платежах прямо <br>
-                                в вашу CRM, в которой работают ваши <br> сотрудники
+                            <p class="soon__text">Интегрируйте уведомления о платежах прямо 
+                                в вашу CRM, в которой работают ваши сотрудники
                             </p>
                             <img src="images/soon-img.svg" alt="soon" class="soon__img">
                         </div>
+                        
                     </li>
                     <li class="soon__item">
                         <h3 class="soon__subtitle">Открытое API Everypay</h3>
@@ -324,7 +333,7 @@
                         </div>
                     </li>
                     <li class="soon__item">
-                        <h3 class="soon__subtitle">Автоматическое создание <br> платежек</h3>
+                        <h3 class="soon__subtitle">Автоматическое создание платежек</h3>
                         <div class="soon__box">
                             <div class="soon__box-dash"></div>
                             <p class="soon__text">Загрузите скан счета на оплату в нашу систему
@@ -336,10 +345,9 @@
                 </ul>
                 <p class="soon__new">И еще 17 нововведений</p>
 
+                <h2 class="soon__security-hidden">Безопасность</h2>
                 <div class="soon__security">
-
-                    <img src="images/security.svg" alt="security" class="soon__security-img" width="422px"
-                        height="360px">
+                    <img src="images/security.svg" alt="security" class="soon__security-img">
                     <div class="soon__security-box">
                         <h2 class="soon__security-title">Безопасность</h2>
                         <p class="soon__security-text">Использование Everypay полностью безопасно: подключение к
@@ -354,6 +362,9 @@
 
     <section class="footer" id="footer">
         <div class="container">
+            <h2 class="footer__connect-hidden">
+                Подключиться
+            </h2>
             <div class="footer__inner">
                 <div class="footer__connect">
                     <h2 class="footer__connect-title">

@@ -3,13 +3,14 @@
     &__inner
         margin-top: 90px
         display: flex
-        justify-content: space-between
-        flex-wrap: wrap
+        justify-content: flex-start
+    &__info
+        margin-right: 30px
     &__info, .upload__info
         width: 534px
         height: 420px
         border: 1px solid #3898FE80
-        padding-left: 40px
+        padding: 20px 40px
         margin-bottom: 40px
     &__info-subtitle, .upload__info-subtitle
         font-weight: 400
@@ -17,23 +18,23 @@
         line-height: 28px
         letter-spacing: 0.443077px
         color: rgba(56, 152, 254, 0.5)
-        padding: 20px 435px 0 40px
     &__info-list
         display: flex
-        justify-content: flex-start
         flex-wrap: wrap
         align-items: center
         list-style-type: none
-    &__info-list::after
-        content: ''
-        width: 454px
-        height: 1px
-        background: linear-gradient(180deg, #1792C7 0%, #00B8F0 100%) 
+        border-bottom: 1px solid #00B8F0
+
+
+    // &__info-list::after
+    //     content: ''
+    //     width: 454px
+    //     height: 1px
+    //     background: linear-gradient(180deg, #1792C7 0%, #00B8F0 100%) 
     .tinkoff
         padding-left: 33px
     &__info-1c
-        padding-top: 6.28px
-        padding-left: 40px
+        padding-top: 39px
 
 .upload__info-list
     display: flex

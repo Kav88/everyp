@@ -1,6 +1,8 @@
 .soon
     margin-top: 131px
     &__list
+        display: flex
+        flex-direction: column
         margin-top: 90px
         padding: 0
         list-style: none
@@ -11,13 +13,15 @@
         padding: 50px 0 50px 0
         
     &__subtitle
-        font-weight: 500
+        font-weight: 600
         font-size: 28px
         line-height: 36px
         letter-spacing: 0.44px
         color: #2D3238
+        max-width: 439px
     &__box
         position: relative
+        max-width: 438px
     &__box-dash
         position: absolute
         top: 12px
@@ -33,7 +37,6 @@
         line-height: 28px
         letter-spacing: 0.443077px
         color: #2D3238
-        width: 438px
 
     &__img
         margin-top: 18px
@@ -45,11 +48,14 @@
         color: #2D3238
         text-align: center
         margin-top: 40px
+        margin-bottom: 160px
     &__security
         display: flex
-        justify-content: space-between
+        align-items: center
         max-width: 1035px
-        margin: 160px auto 80px auto
+        margin: 0 auto 80px auto
+    &__security-hidden
+        display: none
     &__security-img
         margin-right: 78px
         

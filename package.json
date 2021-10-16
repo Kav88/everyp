@@ -2,6 +2,7 @@
   "name": "everypay",
   "version": "1.0.0",
   "description": "",
+  "preferGlobal": true,
   "main": "index.js",
   "dependencies": {
     "browser-sync": "^2.27.5",
