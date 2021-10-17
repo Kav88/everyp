@@ -247,7 +247,7 @@
 
     <section class="cases" id="cases">
         <div class="container">
-            <div class="cases">
+            <div class="cases" id="cases__main">
                 <div class="cases__inner">
                     <h2 class="cases__title">Кейсы</h2>
                     <ul class="cases__list">
@@ -275,6 +275,37 @@
                             </div>
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div class="cases" id="cases-swiper">
+                <div class="cases__inner swiper">
+                    <h2 class="cases__title">Кейсы</h2>
+                    <ul class="cases__list swiper-wrapper">
+                        <li class="cases__item swiper-slide cases-slide">
+                            <img src="images/cases-logo.svg" alt="logo" width="164.62px" height="39px">
+                            <div class="cases__box">
+                                <p class="cases__box-text">Автоматизация <br> диджитал-агентства</p>
+                                <a class="cases__box-link" href="#">Читать кейс &#5171</a>
+                            </div>
+    
+                        </li>
+                        <li class="cases__item swiper-slide cases-slide">
+                            <img class="cases__img" src="images/cases-logo2.svg" alt="logo" width="197.67px" height="32px">
+                            <div class="cases__box">
+                                <p class="cases__box-text">Приём платежей <br> в рекламной <br> медиа-группе</p>
+                                <a class="cases__box-link" href="#">Читать кейс &#5171</a>
+                            </div>
+    
+                        </li>
+                        <li class="cases__item swiper-slide cases-slide">
+                            <img class="cases__img" src="images/cases-logo2.svg" alt="logo" width="197.67px" height="32px">
+                            <div class="cases__box">
+                                <p class="cases__box-text">Оптимизация бухгалтерии <br> в производственной <br> компании</p>
+                                <a class="cases__box-link" href="#">Читать кейс &#5171</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
@@ -414,7 +445,24 @@
                 el: '.swiper-scrollbar',
             },
         });
+        var mySwiper = new Swiper('.cases__inner', {
+            speed: 400,
+            loop: true,
+            slidesPerView: 3,
+            spaceBetween: 20,
+            // breakPoints: {
+            //     320: {
+            //         slidesPerView: 1,
+            //     },
+            //     600: {
+            //         slidesPerView: 2,
+            //     },
+            //     950: {
+            //         slidesPerView: 3,
+            //     },
+            // }
+            
+        });
     </script>
 </body>
-
 </html>

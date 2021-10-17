@@ -8,3 +8,4 @@ function hideMenu(){
   elem.classList.add('hidden');
   document.body.classList.remove('no-scroll');
 }
+
