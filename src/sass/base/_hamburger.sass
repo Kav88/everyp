@@ -10,7 +10,11 @@
         text-align: center
         letter-spacing: 0.96px 
         z-index: 99
-        margin-top: 224px
+        position: fixed
+        top: 50%
+        transform: translateY(-50%)
+        right: 0
+        left: 0
         li
             margin-top: 32px
         a
@@ -24,6 +28,27 @@
         z-index: 98
         top: 40px
         left: 0 
+    &__nav-button
+        display: block
+        width: 120px
+        height: 48px
+        background: linear-gradient(180deg, #1792C7 0%, #00B8F0 100%)
+        border-radius: 44px
+        margin: 0 auto
+        font-weight: 600
+        font-size: 16px
+        text-align: center
+        letter-spacing: 0.369231px
+        color: #ffffff
+        border: none
+    &__nav-button:hover
+        background: #FFFFFF
+        box-shadow: 0px 6px 18px rgba(53, 152, 254, 0.38185)
+        border-radius: 44px
+        border: 1px solid #00B8F0
+        color: #00B8F0
+
+
 .menu-btn 
     width: 27px
     height: 13px
@@ -64,6 +89,8 @@
 
 .menu li 
     list-style-type: none
+
+        
 
 
 

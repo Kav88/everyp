@@ -7,6 +7,27 @@
         text-align: left
     .advantage__last-img
         margin: 21px auto
+    .advantage__block
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        max-height: auto
+    .advantage__info
+        max-width: 534px
+        min-width: 0
+    .advantage__title
+        font-size: 48px
+        line-height: 54px
+    .advantage__text
+        margin-top: 24px
+    .advantage__swiper
+        height: auto
+    #adv__img
+        width: 300px
+    .advantage__last
+        margin-top: 100px
+    .advantage__form
+        margin-bottom: 80px
     .automate__inner
         flex-direction: column
         text-align: center
@@ -80,7 +101,10 @@
         margin: 0
     .footer__form
         margin-top: 0 
-     
+    #cases__main
+        display: none
+    #cases-swiper 
+        display: block 
          
         
     
@@ -166,20 +190,12 @@
         margin-top: 0
     .footer__end
         margin-top: 70px
-    #cases__main
-        display: none
-    #cases-swiper 
-        display: block 
 
 @media only screen and (max-width: 768px)
     .container
         padding: 10px 40px
-    .swiper
-        height: 1000px
-        width: 534px
     .advantage__block
         flex-direction: column
-    
     .about__title
         text-align: center
     .banks__title
@@ -198,6 +214,20 @@
         max-width: 420px
 
 @media only screen and (max-width: 750px)
+    .advantage__title
+        font-size: 32px
+        line-height: 38px
+        text-align: center
+    .advantage__info
+        align-items: center
+    .advantage__text
+        font-size: 16px
+        line-height: 24px
+        text-align: center
+    .advantage__form
+        display: none
+    .advantage__text
+        margin-bottom: 30px
     .about__info
         flex-direction: column
         align-items: center
@@ -225,6 +255,8 @@
         order: 0
     .tarrifs__title-hidden
         display: none
+    #adv__img3
+        width: 500px
     
 
 @media only screen and (max-width: 600px)
@@ -237,13 +269,25 @@
         left: 30px
     .menu-btn
         right: 30px
+    .advantage__title
+        font-size: 32px
+        line-height: 38px
     .advantage__last
+        margin-top: 60px
         img
             width: auto
             max-width: 100%
             height: auto
     .advantage__last-info
         max-height: 432px
+    .advantage__info
+        margin: auto 21px
+    .advantage__img
+        max-width: 280px  
+    #adv__img3
+        max-width: 400px
+    .advantage__swiper-pagination
+        display: none
     .banks__info 
         width: 350px
         height: 279px
@@ -340,9 +384,14 @@
         textarea
             width: 278px
             padding-top: 4px
+
 @media only screen and (max-width: 400px)
     .container
         padding: 10px 21px
+    .advantage__last
+        margin-top: 30px
+    #adv__img3
+        width: 300px
     .automate__container
         padding: 0
     .nav__img
@@ -359,7 +408,16 @@
             height: 55px
     .banks .upload__info
         width: 100%
-    
+    .tarrifs
+        margin-top: 73px
+    .cases-slide
+        width: 213px
+        height: 222px
+        padding: 20px
+    .cases__box-text
+        font-size: 18px
+        line-height: 24px
+        
     .footer__end 
         flex-direction: column-reverse
     .footer__end-link
